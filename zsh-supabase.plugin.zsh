@@ -11,4 +11,4 @@ if [[ ! -f "$ZSH_CACHE_DIR/completions/_supabase" ]]; then
   _comps[supabase]=_supabase
 fi
 
-supabase completions zsh >| "$ZSH_CACHE_DIR/completions/_supabase" &|
+supabase completion zsh >| "$ZSH_CACHE_DIR/completions/_supabase" &|
